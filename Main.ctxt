@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=A\ B\ C\ D
+comment2.target=void\ addRating(Book,\ Book,\ Book,\ Book)
+numComments=3
