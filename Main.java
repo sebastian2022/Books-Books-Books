@@ -33,7 +33,7 @@ public class Main
                 System.out.print(k+" ");
                 n++;                                //increments rating count
             }
-            System.out.print("\n");
+            System.out.print("out of 5 stars\n");
         }
         r /= n;     //divides total ratings to get average
         
