@@ -15,7 +15,7 @@ public class Main
         System.out.println("\nBook 3:\nTitle: "+book3.getTitle()+"\nChapters: "+book3.getChapters()+"\nVolumes: "+book3.getVolumes()+"\nGenre: "+book3.getGenre()+"\nAuthor: "+book3.getAuthor());
         System.out.println("\nBook 4:\nTitle: "+book4.getTitle()+"\nChapters: "+book4.getChapters()+"\nAuthor: "+book4.getAuthor());
     
-        addRating(book1,book2,book3,book4);
+        addRating(book1,book2,book3,book4); //calls method addRating with books as perameters
     }
     
     public static void addRating(Book A, Book B, Book C, Book D)    //static method with perameters that will take iin book objects 1-4
@@ -52,11 +52,11 @@ public class Main
         String a3 = C.getAuthor();
         String a4 = D.getAuthor();
         String fa = a1.substring(0,1) + a2.substring(0,1) + a3.substring(0,1) + a4.substring(0,1);
-        System.out.println("First letters of all authors put together: "+fa);
+        System.out.println("First letters of all authors put together: "+fa);   //prints concatednated first letters
         
         String lt = t1.substring(t1.length() - 1) + t2.substring(t2.length() - 1) + t3.substring(t3.length() - 1) + t4.substring(t4.length() - 1);
-        System.out.println("Last letters of all titles together: "+lt); //puts last letters as substrings together in new string,prints
+        System.out.println("Last letters of all titles together: "+lt); //prints last letters as substrings together in new string
         
-        System.out.println("Average rating of all books: "+r);
+        System.out.println("Average rating of all books: "+r);  //prints rating average
     }
 }
