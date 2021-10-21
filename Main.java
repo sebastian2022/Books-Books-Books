@@ -57,6 +57,6 @@ public class Main
         String lt = t1.substring(t1.length() - 1) + t2.substring(t2.length() - 1) + t3.substring(t3.length() - 1) + t4.substring(t4.length() - 1);
         System.out.println("Last letters of all titles together: "+lt); //prints last letters as substrings together in new string
         
-        System.out.println("Average rating of all books: "+r);  //prints rating average
+        System.out.printf("Average rating of all books: %.2f\n",r);  //prints rating average, truncated after 2 decimal places
     }
 }
